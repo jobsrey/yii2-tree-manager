@@ -1204,13 +1204,13 @@ HTML;
         if (empty($class) || !is_subclass_of($class, ActiveRecord::className())) {
             throw new InvalidConfigException("The 'query' must be implemented using 'ActiveRecord::find()' method.");
         }
-        $trait = 'kartik\tree\models\TreeTrait';
+        /*$trait = 'kartik\tree\models\TreeTrait';
         if (!self::usesTrait($class, $trait)) {
             throw new InvalidConfigException(
                 "The model class '{$class}' for the 'query' must use the trait '{$trait}' or extend from '" .
                 Tree::className() . "''."
             );
-        }
+        }*/
     }
 
     /**
