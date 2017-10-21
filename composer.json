@@ -32,10 +32,5 @@
     "psr-4": {
       "kartik\\tree\\": ""
     }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-bugfix": "dev-bugfix"
-    }
   }
 }
