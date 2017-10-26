@@ -35,7 +35,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-fixbug": "1.1.x-dev"
+      "dev-bugfix": "1.0.x-dev"
     }
   }
 }
