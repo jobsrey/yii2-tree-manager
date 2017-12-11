@@ -1156,8 +1156,8 @@ HTML;
         $this->_module = Config::initModule(Module::className());
         if (empty($this->emptyNodeMsg)) {
             $this->emptyNodeMsg = Yii::t(
-                'kvtree',
-                'No valid tree nodes are available for display. Use toolbar buttons to add tree nodes.'
+                'app',
+                'Tidak ada node pohon yang valid yang tersedia untuk ditampilkan. Gunakan tombol toolbar untuk menambahkan node pohon.'
             );
         }
         $this->_hasBootstrap = $this->showTooltips;
@@ -1165,7 +1165,7 @@ HTML;
             'depth' => null,
             'glue' => ' &raquo; ',
             'activeCss' => 'kv-crumb-active',
-            'untitled' => Yii::t('kvtree', 'Untitled'),
+            'untitled' => Yii::t('app', 'Tidak ada judul'),
         ];
     }
 
